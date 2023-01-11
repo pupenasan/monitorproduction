@@ -1,6 +1,27 @@
-## zenon ЛР7: Адміністрування користувачів та блокування
+# Лабораторна робота №7
 
-### Визначення користувачів
+**Тема. Адміністрування користувачів та блокування**
+
+**Тривалість**: 2 акад. години (1 пара).
+
+**Мета:** навчитися керувати користувачами та налаштовувати блокування   
+
+**Цілі.** 
+
+1. Означити користувачів та рівні доступу
+2. Створити екрани авторизації та керування користувачами
+3. Створити функції керування користувачами
+4. Зробити умовні блокування для змінних
+
+**Лабораторна установка**
+
+- Апаратне забезпечення: ПК. 
+
+- Програмне забезпечення: SCADA zenon.
+
+## Порядок виконання роботи 
+
+### 1. Означення користувачів
 
 Система керування дозволяє реалізувати ряд заходів для забезпечення найвищого  рівня безпеки при керуванні процесом виробництва. Одним з таких заходів  являється впровадження в проекті багаторівневої системи адміністрування  доступу користувачів.
 
@@ -40,7 +61,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/RFKxAccmlZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Додаткові налаштування
+### 2. Додаткові налаштування
 
 У властивостях проекту існує спеціальний розділ - *User administration*, в якому можна визначити максимальну кількість разів невірного вводу  паролю чи імені, мінімальну довжину паролю, переіменувати рівні  авторизації та багато інших опцій. Пізніше ми сюди ще повернемось.
 
@@ -60,7 +81,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/aZXgIwXzE00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Прив’язка рівнів доступу
+### 3. Прив’язка рівнів доступу
 
 Розділення прав доступу в zenon здійснюється за рахунок визначення різних рівнів  авторизації до елементів керування – кнопок чи задатчиків значень. Таким чином, якщо, наприклад, користувач не уповноважений перейти на той чи  інший екран, система не дозволить йому це зробити.
 
@@ -104,7 +125,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/YvpwK-2j1io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Створення екрану авторизації
+### 4. Створення екрану авторизації
 
 В проектах виконують постійну авторизацію через спеціально створене для цього діалогове вікно чи екран.
 
@@ -139,7 +160,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/QFBqe1US35g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Робота з екраном авторизації
+### 5. Робота з екраном авторизації
 
 #### Завдання 7.6: Створення кнопки виклику вікна авторизації 
 
@@ -163,7 +184,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/_Iv8yPc_1PY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Візуалізація авторизації
+### 6. Візуалізація авторизації
 
 #### Завдання 7.7: Створення системної змінної користувача
 
@@ -204,7 +225,7 @@
 
  <iframe width="640" height="360" src="https://www.youtube.com/embed/OdC2JK3_mP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Функції адміністратора
+### 7. Функції адміністратора
 
 Як ми вже згадували, серед усіх користувачів, створених в проекті,  обов’язково повинен бути один з правами адміністратора (в нашому проекті - 'Інженер'). 
 
@@ -269,7 +290,7 @@ Authorization levels: 0, 1
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/tSVKmAh0WRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Блокування
+### 8. Блокування
 
 Існують задачі, коли з точки зору безпеки чи згідно з технологією необхідно  заблокувати ті чи інші елементи екрану, щоб оператор не міг ними  керувати. Інколи цю задачу реалізують на контролері, але з zenon таке  блокування можна створити безпосередньо в проекті візуалізації  використовуючи стандартну функціональність.
 
@@ -342,3 +363,11 @@ Authorization levels: 0, 1
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mn21nrvIJIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Порядок прийому роботи 
+
+Здобувач надає звіт у форматі документу Word, у якому наводяться усі копії екранів та примітки до них  Викладач може перевірити вибірково демонстрацію виконання пунктів лабораторної роботи. 
+
+## Питання до захисту 
+
+1. Як організовано меню в проекті? Як організовані команди керування в меню на сторінках? 
+2. Де і для чого

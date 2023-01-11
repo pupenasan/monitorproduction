@@ -1,6 +1,25 @@
-## zenon ЛР4: Створення графічного інтерфейсу
+# Лабораторна робота №4
 
-### Відображення та зміна значень змінних: покажчики (індикатори) та повзунок
+**Тема. Створення графічного інтерфейсу**
+
+**Тривалість**: 8 акад. години (4 пари).
+
+**Мета:** навчитися створювати графічний інтерфейс 
+
+**Цілі.** 
+
+1. Створити людино-машинний інтерфейс з використанням різноманітних графічних компонентів 
+2. Створити свої бібліотечні символи
+
+**Лабораторна установка**
+
+- Апаратне забезпечення: ПК. 
+
+- Програмне забезпечення: SCADA zenon.
+
+## Порядок виконання роботи 
+
+### 1. Відображення та зміна значень змінних: покажчики (індикатори) та повзунок
 
 Ми дійшли до того моменту, коли усе готово для реалізації повноцінної  мнемосхеми представлення техпроцесу: розміщення елементів відображення,  символів обладнання та прив’язки до них змінних. В цьому навчальному  посібнику ми розглянемо приклад реалізації фрагменту дифузійного  відділення цукрового заводу. Основними елементами такого процесу є  танки, клапани, двигуни, з’єднувальні труби.  
 
@@ -76,7 +95,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mTMI378Rg1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Ввод значень
+### 2. Ввод значень
 
 #### Завдання 4.4: Створення кнопки збільшення/зменшення 
 
@@ -117,7 +136,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/dtTFpUoFPtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Символи
+### 3. Символи
 
 Давайте створимо частину технологічної структури на базі ємності – танку збору  дифузійного соку. Ми не будемо самостійно малювати танк, а візьмемо  готовий з глобальної бібліотеки символів.
 
@@ -192,7 +211,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WZ0CgbuTwCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Анімація символу
+### 4. Анімація символу
 
 #### Завдання 4.10: Використання символу з заміною прив'язки 
 
@@ -254,7 +273,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/3A2BLCt0qoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Внесення змін в символ
+### 5. Внесення змін в символ
 
 #### Завдання 4.12: Елемент керування типу "Switch"
 
@@ -287,7 +306,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/gtY8rx3Yxt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Трубопроводи
+### 6. Трубопроводи
 
 #### Завдання 4.14: Використання елементу "Pipe" 
 
@@ -331,7 +350,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/9kPjCCX-JgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Мішалка
+### 7. Мішалка
 
 #### Завдання 4.16: Добавлення мішалок
 
@@ -352,7 +371,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/gP58fS2Sekw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Комбіелемент
+### 8. Комбіелемент
 
 #### Завдання 4.17: Кнопки включення/відключення мішалок 
 
@@ -438,7 +457,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/0XrWd84-Dew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Зображення
+### 9. Зображення
 
 Система керування дозволяє на екранах відображати як растрову графіку (bmp,  jpg, gif, png…) так і векторну (wmf). Зображення можна ставити як фон  для екрану або як окремий елемент.
 
@@ -470,7 +489,7 @@
 
 Аналогічним чином Ви можете розмістити на екрані будь-яке зображення чи анімацію.
 
-### Годинник
+### 10. Годинник
 
 #### Завдання 4.20: Відображення плинного часу.
 
@@ -486,7 +505,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Lrkd40JVIgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Самописець (тренд реального часу)
+### 11. Самописець (тренд реального часу)
 
 Система керування має у своєму розпорядженні спеціальний елемент для  відображення виміряної інформації у вигляді графіків. Цей трендовий  елемент має досить низьку функціональність і використовується тільки для приблизного відображення графіків з невеликою точністю. Для  повноцінного відображення графіків в zenon існує спеціальний тип екрану – *Extended* *Trend*. З ним ми познайомимось пізніше.
 
@@ -522,7 +541,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1HTPmxdI6hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Зміна кольору, тексту, невидима кнопка
+### 12. Зміна кольору, тексту, невидима кнопка
 
 При розробці проектів візуалізації не обмежуються лише розміщенням на  екрані елементів технологічних ліній та засобів керування. Розробнику  проекту необхідно створити інтуїтивно зрозумілий інтерфейс взаємодії  оператора з процесом. Це досягається за рахунок динамізації об’єктів.  Під час здійснення тієї чи іншої дії оператор повинен однозначно  розуміти що він зробив і яким був відгук системи на цю дію.
 
@@ -579,7 +598,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/azYqlcpH1hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Діалогове вікно
+### 13. Діалогове вікно
 
 Існують задачі, коли виконання керуючої дії повинно здійснюватись не відразу, а через діалогове вікно. Давайте створимо таке вікно та прив’яжемо його  виклик до зливного клапану другого танку.
 
@@ -662,7 +681,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Fuzmsi75VrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Зміна розміру
+### 14. Зміна розміру
 
 Динамічне відображення набору рідини в танку можна реалізувати не тільки за  допомогою спеціального елементу – стовпчикового покажчика, а й через  звичайний прямокутник, задавши йому зміну висоти відповідно до значення  змінної рівня. Давайте реалізуємо це на нашій схемі.
 
@@ -690,7 +709,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/nly7Fz2pBpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Анімація руху
+### 15. Анімація руху
 
 #### Завдання 4.30: Анімація зміни положення стрілки в залежності від рівня
 
@@ -708,7 +727,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/afgYD0B2sXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Зміна кольору
+### 16. Зміна кольору
 
 #### Завдання 4.31: Анімація зміни кольору стовпчику в залежності від рівня
 
@@ -749,7 +768,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ykazTOxhnLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Блимання
+### 17. Блимання
 
 #### Завдання 4.32: Анімація миготіння
 
@@ -784,7 +803,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/xkvE3v5vDyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Скрипти
+### 18. Скрипти
 
 Існують задачі, коли при натисканні кнопки чи досягненні якогось критичного  значення параметру необхідно виконати одночасно декілька функцій. Для  цього в системі керування існує поняття скриптів.
 
@@ -854,7 +873,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/7kLBYcjmoQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Віртуальна клавіатура
+### 19. Віртуальна клавіатура
 
 Окрім тих варіантів установки значень змінним оператором, що ми вже  розглянули, існує ще один дуже розповсюджений варіант – введення через  віртуальну клавіатуру.
 
@@ -908,3 +927,12 @@
 ![img](media4/3_3.png)
 
 Докладніше про створення і використання екранних клавіатур можна познайомитись в мануалі Keyboard.
+
+## Порядок прийому роботи 
+
+Здобувач надає звіт у форматі документу Word, у якому наводяться усі копії екранів та примітки до них  Викладач може перевірити вибірково демонстрацію виконання пунктів лабораторної роботи. 
+
+## Питання до захисту 
+
+1. Як організовано меню в проекті? Як організовані команди керування в меню на сторінках? 
+2. Де і для чого

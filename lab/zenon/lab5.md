@@ -1,6 +1,26 @@
-## zenon ЛР5 Тривоги та події
+# Лабораторна робота №5
 
-### CEL:Створення екрану
+**Тема. Тривоги та події**
+
+**Тривалість**: 4 акад. години (2 пари).
+
+**Мета:** навчитися конфігурувати тривоги та події та створювати екрани для них   
+
+**Цілі.** 
+
+1. Налаштувати CEL 
+2. Налаштувати тривоги
+3. Створити екрани для CEL та тривог
+
+**Лабораторна установка**
+
+- Апаратне забезпечення: ПК. 
+
+- Програмне забезпечення: SCADA zenon.
+
+## Порядок виконання роботи 
+
+### 1. CEL:Створення екрану
 
 Цим розділом ми почнемо розгляд спеціальних типів екранів візуалізації, які являються частиною будь-якого SCADA проекту, а саме подій, тривог,  архівів та трендів.
 
@@ -38,7 +58,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/GW-2xR3fl6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Створення функції виклику екрану CEL
+### 2. Створення функції виклику екрану CEL
 
 #### Завдання 5.3: Створення функції переходу на CEL 
 
@@ -97,7 +117,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Au5l8Yx75FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Робота з екраном CEL
+### 3. Робота з екраном CEL
 
 #### Завдання 5.4: Створення кнопки виклику екрану CEL
 
@@ -128,7 +148,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/orjamvOIJ3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Реєстрація лімітних значень
+### 4. Реєстрація лімітних значень
 
 #### Завдання 5.5: Реєстрація спрацювання ліміту
 
@@ -163,7 +183,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/652Cfc_8jC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Створення екрану тривог (AML)
+### 5. Створення екрану тривог (AML)
 
 Досягнення критичних значень параметрів в системі реєструється в спеціальному  журналі – Інформаційному списку тривог (Alarm Message List). До нього  заноситься час появи тривоги, її статус (активна, не активна,  підтверджена), опис тривоги, змінна, її значення, поточний оператор,  робоча станція, коментар.
 
@@ -189,7 +209,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/QCEH4ot1Ry0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Визначення лімітів
+### 6. Визначення лімітів
 
 #### Завдання 5.9: Створення кнопки виклику екрану AML
 
@@ -228,7 +248,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Hf2C84JuyGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Матриці реакції
+### 7. Матриці реакції
 
 Окрім лімітів, в zenon існує можливість централізованого визначення граничних значень спрацювання тривог - матриці реакції.
 
@@ -290,3 +310,11 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/2lXlQIRp-kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Порядок прийому роботи 
+
+Здобувач надає звіт у форматі документу Word, у якому наводяться усі копії екранів та примітки до них  Викладач може перевірити вибірково демонстрацію виконання пунктів лабораторної роботи. 
+
+## Питання до захисту 
+
+1. Як організовано меню в проекті? Як організовані команди керування в меню на сторінках? 
+2. Де і для чого

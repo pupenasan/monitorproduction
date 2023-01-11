@@ -1,6 +1,25 @@
-## zenon ЛР8: Меню
+# Лабораторна робота №8
 
-### Головне меню
+**Тема. Меню**
+
+**Тривалість**: 2 акад. години (1 пара).
+
+**Мета:** навчитися створювати головні та контекстні меню   
+
+**Цілі.** 
+
+1. Створити та налаштувати головне меню
+2. Створити та налаштувати контекстне меню
+
+**Лабораторна установка**
+
+- Апаратне забезпечення: ПК. 
+
+- Програмне забезпечення: SCADA zenon.
+
+## Порядок виконання роботи 
+
+### 1. Головне меню
 
 У випадку, якщо проект має велику кількість елементів керування – кнопок, то для оптимізації користувацького інтерфейсу логічно створити меню.  zenon дозволяє створювати меню аналогічні до тих, які є в програмах  Windows: головне меню, яке знаходиться в верхній частині екрану та  контекстне меню, яке викликається при натисненні правою кнопки миші на  елементі інтерфейсу.
 
@@ -35,7 +54,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/cyq4X9PUHo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Визначення дій
+### 2. Означення дій
 
 #### Завдання 8.2: Визначення дій для пунктів меню
 
@@ -66,7 +85,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/AFQUHDNUq8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Активація головного меню
+### 3. Активація головного меню
 
 #### Завдання 8.3: Активація головного меню
 
@@ -92,7 +111,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/grDibtiEhcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Контекстне меню
+### 4. Контекстне меню
 
 #### Завдання 8.4: Створення контекстного меню
 
@@ -134,3 +153,11 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/i1mF3_J93S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Порядок прийому роботи 
+
+Здобувач надає звіт у форматі документу Word, у якому наводяться усі копії екранів та примітки до них  Викладач може перевірити вибірково демонстрацію виконання пунктів лабораторної роботи. 
+
+## Питання до захисту 
+
+1. Як організовано меню в проекті? Як організовані команди керування в меню на сторінках? 
+2. Де і для чого

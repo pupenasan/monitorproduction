@@ -1,6 +1,27 @@
-## zenon ЛР6: Тренди
+# Лабораторна робота №6
 
-### Створення ціклічного архіву
+**Тема. Тренди**
+
+**Тривалість**: 4 акад. години (2 пари).
+
+**Мета:** навчитися конфігурувати тренди та створювати екрани для них   
+
+**Цілі.** 
+
+1. Створити циклічний архів
+2. Створити екран з часовим фільтром
+3. Зробити каскадний архів
+4. Налаштувати трендові екрани
+
+**Лабораторна установка**
+
+- Апаратне забезпечення: ПК. 
+
+- Програмне забезпечення: SCADA zenon.
+
+## Порядок виконання роботи 
+
+### 1. Створення циклічного архіву
 
 Система керування дозволяє здійснювати архівування в трьох режимах: циклічному  (раз в секунду, хвилину, годину…), по зміні параметру, по події  (тригерне). Усі зібрані дані можуть зберігатися у внутрішньому форматі  (arx), текстовому (csv), веб-форматі (xml) чи безпосередньо в SQL-базі  даних. Також, окремо виділяється пакетне архівування, яке представляє  собою спеціальний режим архівування, який використовується в харчовій та фармацевтичній промисловості при виробництві продукції по-партіям.
 
@@ -74,7 +95,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Q3lHUAatcOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Екран перегляду архіву у вигляді таблиці
+### 2. Екран перегляду архіву у вигляді таблиці
 
 #### Завдання 6.2: Створення екрану перегляду трендового архіву у вигляді таблиці
 
@@ -145,7 +166,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/qlsPni9-99w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Екран з часовим фільтром
+### 3. Екран з часовим фільтром
 
 #### Завдання 6.5: Створення екрану з часовим фільтром
 
@@ -159,7 +180,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Eb8dL6oIduI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Аріхівні файли та експорт архіву
+### 4. Аріхівні файли та експорт архіву
 
 **Архівні файли** 
 
@@ -206,7 +227,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Y6uRYWWtplQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Каскадний архів
+### 5. Каскадний архів
 
 Існують випадки, коли необхідно здійснювати архівацію не прямих значень  змінних, а похідних даних, наприклад сумарного значення за певний  період, середнього, мінімального чи максимального. Для цієї задачі в  zenon існує поняття каскадного архіву.
 
@@ -245,7 +266,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vsl9GUZ8sqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Налаштування трендових екранів
+### 6. Налаштування трендових екранів
 
 З метою аналізу і зручного візуального сприйняття, виміряну інформацію  представляють у вигляді графіків – трендів. На відміну від вже  розглянутого нами трендового елементу, який має досить примітивну  функціональність, zenon дозволяє створювати повноцінні трендові екрани з великою кількістю налаштувань. Трендові криві можуть будуватись на  основі як онлайн так і архівних даних.
 
@@ -335,7 +356,7 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/uYUXsNBeWbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Трендові екрани в режимі виконання
+### 7. Трендові екрани в режимі виконання
 
 #### Завдання 6.10: Створення кнопки виклику трендового екрану 
 
@@ -368,3 +389,13 @@
 Докладніше про модуль трендів можна познайомитись в мануалі Extended Trend.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/OlKXVXGuDtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Порядок прийому роботи 
+
+Здобувач надає звіт у форматі документу Word, у якому наводяться усі копії екранів та примітки до них  Викладач може перевірити вибірково демонстрацію виконання пунктів лабораторної роботи. 
+
+## Питання до захисту 
+
+1. Як організовано меню в проекті? Як організовані команди керування в меню на сторінках? 
+2. Де і для чого
+
