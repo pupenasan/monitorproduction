@@ -1,3 +1,5 @@
+[На основну сторінку курсу](../../README.md)     [До списку лабораторних](../README.md)
+
 # Лабораторна робота №1
 
 **Тема. Загальні положення, і середовище виконання**
@@ -56,7 +58,7 @@
 
  Інсталюйте середовище розроблення разом з середовищем виконання.
 
-- Завантажте дистрибутив SCADA [zenon 7.2](http://download.copadata.com/fileadmin/user_upload/Downloads/installation_cd/zenon_720/SP0B20544/zenon720SP0_LanguageBuild20544_COPA-DATA.iso) або SCADA [zenon 7.6](http://download.copadata.com/fileadmin/user_upload/Downloads/installation_cd/zenon_720/SP0B20544/zenon720SP0_LanguageBuild20544_COPA-DATA.iso). Дана версія потребує ОС Windows 7 та вище. **Увага! Лабораторний практикум розроблений для  SCADA zenon 7.2, у версії 7.6. можуть бути відмінності!**  
+- Завантажте дистрибутив SCADA [zenon 7.2](http://download.copadata.com/fileadmin/user_upload/Downloads/installation_cd/zenon_720/SP0B20544/zenon720SP0_LanguageBuild20544_COPA-DATA.iso) або SCADA [zenon 7.6](http://download.copadata.com/fileadmin/user_upload/Downloads/installation_cd/zenon760/SP0B36068/zenon760_FinalBuild36068_COPA-DATA.iso). Дана версія потребує ОС Windows 7 та вище. **Увага! Лабораторний практикум розроблений для  SCADA zenon 7.2, у версії 7.6. можуть бути відмінності!**  
 - Відкрийте образ і скопіюйте усі файли в окрему папку. 
 
 - Запустіть процес установки системи за допомогою файлу “START.exe”.
