@@ -293,10 +293,13 @@
 
 23.     Поясніть відмінність між автентифікацією та авторизацією.
 
-
 ## Відеозапис 2023
+
+ч1.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lMnEkbYL_NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+ч2. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UvKgEk4Rkr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
