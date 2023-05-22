@@ -254,4 +254,6 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xj4p59Oba8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+Ч2.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n6-C-nJ4ipU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
